@@ -7,6 +7,6 @@ app = Flask(__name__)
 def index():    #一定要有return
     return render_template("index.html")
 
-@app.route("/first")
-def hello():
-    return render_template("first_page.html")
+@app.route("/f")
+def first():
+    return render_template("firstpage.html")
